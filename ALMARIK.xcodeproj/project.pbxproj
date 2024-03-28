@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B78B9402BB547F500310B97 /* ALMARIKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78B93F2BB547F500310B97 /* ALMARIKApp.swift */; };
+		5B78B9422BB547F500310B97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78B9412BB547F500310B97 /* ContentView.swift */; };
+		5B78B9442BB547F700310B97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B78B9432BB547F700310B97 /* Assets.xcassets */; };
+		5B78B9472BB547F700310B97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B78B9462BB547F700310B97 /* Preview Assets.xcassets */; };
+		5B78B9512BB547F800310B97 /* ALMARIKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78B9502BB547F800310B97 /* ALMARIKTests.swift */; };
+		5B78B95B2BB547F800310B97 /* ALMARIKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78B95A2BB547F800310B97 /* ALMARIKUITests.swift */; };
+		5B78B95D2BB547F800310B97 /* ALMARIKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B78B95C2BB547F800310B97 /* ALMARIKUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B78B94D2BB547F800310B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B78B9342BB547F500310B97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B78B93B2BB547F500310B97;
+			remoteInfo = ALMARIK;
+		};
+		5B78B9572BB547F800310B97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B78B9342BB547F500310B97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B78B93B2BB547F500310B97;
+			remoteInfo = ALMARIK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B78B93C2BB547F500310B97 /* ALMARIK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ALMARIK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B78B93F2BB547F500310B97 /* ALMARIKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALMARIKApp.swift; sourceTree = "<group>"; };
+		5B78B9412BB547F500310B97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5B78B9432BB547F700310B97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B78B9462BB547F700310B97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5B78B94C2BB547F800310B97 /* ALMARIKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALMARIKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B78B9502BB547F800310B97 /* ALMARIKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALMARIKTests.swift; sourceTree = "<group>"; };
+		5B78B9562BB547F800310B97 /* ALMARIKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ALMARIKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B78B95A2BB547F800310B97 /* ALMARIKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALMARIKUITests.swift; sourceTree = "<group>"; };
+		5B78B95C2BB547F800310B97 /* ALMARIKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ALMARIKUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B78B9392BB547F500310B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B78B9492BB547F800310B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B78B9532BB547F800310B97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B78B9332BB547F500310B97 = {
+			isa = PBXGroup;
+			children = (
+				5B78B93E2BB547F500310B97 /* ALMARIK */,
+				5B78B94F2BB547F800310B97 /* ALMARIKTests */,
+				5B78B9592BB547F800310B97 /* ALMARIKUITests */,
+				5B78B93D2BB547F500310B97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B78B93D2BB547F500310B97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B78B93C2BB547F500310B97 /* ALMARIK.app */,
+				5B78B94C2BB547F800310B97 /* ALMARIKTests.xctest */,
+				5B78B9562BB547F800310B97 /* ALMARIKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B78B93E2BB547F500310B97 /* ALMARIK */ = {
+			isa = PBXGroup;
+			children = (
+				5B78B93F2BB547F500310B97 /* ALMARIKApp.swift */,
+				5B78B9412BB547F500310B97 /* ContentView.swift */,
+				5B78B9432BB547F700310B97 /* Assets.xcassets */,
+				5B78B9452BB547F700310B97 /* Preview Content */,
+			);
+			path = ALMARIK;
+			sourceTree = "<group>";
+		};
+		5B78B9452BB547F700310B97 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5B78B9462BB547F700310B97 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5B78B94F2BB547F800310B97 /* ALMARIKTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B78B9502BB547F800310B97 /* ALMARIKTests.swift */,
+			);
+			path = ALMARIKTests;
+			sourceTree = "<group>";
+		};
+		5B78B9592BB547F800310B97 /* ALMARIKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B78B95A2BB547F800310B97 /* ALMARIKUITests.swift */,
+				5B78B95C2BB547F800310B97 /* ALMARIKUITestsLaunchTests.swift */,
+			);
+			path = ALMARIKUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B78B93B2BB547F500310B97 /* ALMARIK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B78B9602BB547F800310B97 /* Build configuration list for PBXNativeTarget "ALMARIK" */;
+			buildPhases = (
+				5B78B9382BB547F500310B97 /* Sources */,
+				5B78B9392BB547F500310B97 /* Frameworks */,
+				5B78B93A2BB547F500310B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ALMARIK;
+			productName = ALMARIK;
+			productReference = 5B78B93C2BB547F500310B97 /* ALMARIK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B78B94B2BB547F800310B97 /* ALMARIKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B78B9632BB547F800310B97 /* Build configuration list for PBXNativeTarget "ALMARIKTests" */;
+			buildPhases = (
+				5B78B9482BB547F800310B97 /* Sources */,
+				5B78B9492BB547F800310B97 /* Frameworks */,
+				5B78B94A2BB547F800310B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B78B94E2BB547F800310B97 /* PBXTargetDependency */,
+			);
+			name = ALMARIKTests;
+			productName = ALMARIKTests;
+			productReference = 5B78B94C2BB547F800310B97 /* ALMARIKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B78B9552BB547F800310B97 /* ALMARIKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B78B9662BB547F800310B97 /* Build configuration list for PBXNativeTarget "ALMARIKUITests" */;
+			buildPhases = (
+				5B78B9522BB547F800310B97 /* Sources */,
+				5B78B9532BB547F800310B97 /* Frameworks */,
+				5B78B9542BB547F800310B97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B78B9582BB547F800310B97 /* PBXTargetDependency */,
+			);
+			name = ALMARIKUITests;
+			productName = ALMARIKUITests;
+			productReference = 5B78B9562BB547F800310B97 /* ALMARIKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B78B9342BB547F500310B97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5B78B93B2BB547F500310B97 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5B78B94B2BB547F800310B97 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5B78B93B2BB547F500310B97;
+					};
+					5B78B9552BB547F800310B97 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5B78B93B2BB547F500310B97;
+					};
+				};
+			};
+			buildConfigurationList = 5B78B9372BB547F500310B97 /* Build configuration list for PBXProject "ALMARIK" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B78B9332BB547F500310B97;
+			productRefGroup = 5B78B93D2BB547F500310B97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B78B93B2BB547F500310B97 /* ALMARIK */,
+				5B78B94B2BB547F800310B97 /* ALMARIKTests */,
+				5B78B9552BB547F800310B97 /* ALMARIKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B78B93A2BB547F500310B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B78B9472BB547F700310B97 /* Preview Assets.xcassets in Resources */,
+				5B78B9442BB547F700310B97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B78B94A2BB547F800310B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B78B9542BB547F800310B97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B78B9382BB547F500310B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B78B9422BB547F500310B97 /* ContentView.swift in Sources */,
+				5B78B9402BB547F500310B97 /* ALMARIKApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B78B9482BB547F800310B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B78B9512BB547F800310B97 /* ALMARIKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B78B9522BB547F800310B97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B78B95D2BB547F800310B97 /* ALMARIKUITestsLaunchTests.swift in Sources */,
+				5B78B95B2BB547F800310B97 /* ALMARIKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B78B94E2BB547F800310B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B78B93B2BB547F500310B97 /* ALMARIK */;
+			targetProxy = 5B78B94D2BB547F800310B97 /* PBXContainerItemProxy */;
+		};
+		5B78B9582BB547F800310B97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B78B93B2BB547F500310B97 /* ALMARIK */;
+			targetProxy = 5B78B9572BB547F800310B97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5B78B95E2BB547F800310B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B78B95F2BB547F800310B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B78B9612BB547F800310B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ALMARIK/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.ku.eng.cpe.ALMARIK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B78B9622BB547F800310B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ALMARIK/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.ku.eng.cpe.ALMARIK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5B78B9642BB547F800310B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.ku.eng.cpe.ALMARIKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALMARIK.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ALMARIK";
+			};
+			name = Debug;
+		};
+		5B78B9652BB547F800310B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.ku.eng.cpe.ALMARIKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ALMARIK.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ALMARIK";
+			};
+			name = Release;
+		};
+		5B78B9672BB547F800310B97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.ku.eng.cpe.ALMARIKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ALMARIK;
+			};
+			name = Debug;
+		};
+		5B78B9682BB547F800310B97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = th.ac.ku.eng.cpe.ALMARIKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ALMARIK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B78B9372BB547F500310B97 /* Build configuration list for PBXProject "ALMARIK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B78B95E2BB547F800310B97 /* Debug */,
+				5B78B95F2BB547F800310B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B78B9602BB547F800310B97 /* Build configuration list for PBXNativeTarget "ALMARIK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B78B9612BB547F800310B97 /* Debug */,
+				5B78B9622BB547F800310B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B78B9632BB547F800310B97 /* Build configuration list for PBXNativeTarget "ALMARIKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B78B9642BB547F800310B97 /* Debug */,
+				5B78B9652BB547F800310B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B78B9662BB547F800310B97 /* Build configuration list for PBXNativeTarget "ALMARIKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B78B9672BB547F800310B97 /* Debug */,
+				5B78B9682BB547F800310B97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B78B9342BB547F500310B97 /* Project object */;
+}
