@@ -235,22 +235,27 @@ struct EditPopupView: View {
                                 VStack{
                                     Text("Description:")
                                         .fontWeight(.bold)
+                                        .frame(maxWidth: .infinity, alignment: .leading)
                                     Text(selectedAnnotation.subtitle ?? "Not have Description")
+                                        .padding(.leading, 10)
+                                        .frame(maxWidth: .infinity, alignment: .leading)
                                 }
                                 .padding(.leading)
                                 .frame(maxWidth: .infinity, alignment: .leading)
-                                Text("Date")
-                                    .padding(.leading)
-                                    .frame(maxWidth: .infinity, alignment: .leading)
-                                    .fontWeight(.bold)
+                                
+                                Spacer(minLength: 300)
+
                                 HStack{
+                                    Text("Date:")
+                                        .fontWeight(.bold)
                                     Text(selectedAnnotation.startDate ?? Date(), style: .date)
                                     Text("-")
                                     Text(selectedAnnotation.endDate ?? Date(), style: .date)
                                 }
                                 .padding(.leading, 10)
+                                .padding(.trailing, 10)
                                 .frame(maxWidth: .infinity)
-                                Spacer()
+                                                                
                                 HStack{
                                     Button(action:{
                                         isEditOpen = true
@@ -292,13 +297,15 @@ struct EditPopupView: View {
                             }
                         }
                     }
-                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .frame(maxWidth: .infinity, minHeight: 300, maxHeight: .infinity)
                     .background(Color.white)
                     .cornerRadius(10)
                     .shadow(radius: 5)
                     .padding()
                     .edgesIgnoringSafeArea(.all)
                 }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .edgesIgnoringSafeArea(.all)
             } else {
                 // Edit section of the popup
                 Text("Edit Information Marker")
@@ -338,6 +345,9 @@ struct EditPopupView: View {
                         .foregroundColor(.black)
                         .padding(.leading, 10)
                         .padding(.trailing, 10)
+                        .onAppear{
+                            self.title = annotation.title ?? ""
+                        }
                         Rectangle()
                             .frame(height: 1)
                             .foregroundColor(.gray.opacity(0.5))
